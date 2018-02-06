@@ -1,13 +1,19 @@
 // ==UserScript==
 // @name        FaceCards
-// @namespace   Holger
+// @namespace   https://openuserjs.org/users/hklene
 // @description Gesichter lernen mit Karteikarten
+// @copyright   2018, hklene (https://openuserjs.org/users/hklene)
+// @license     GPL-3.0 or later
+// @version     2018-02-05
 // @include     https://confluence.bredex.de/browsepeople.action*
 // @include     https://confluence.bredex.de/dopeopledirectorysearch.action*
-// @version     2018-02-05
 // @icon        https://confluence.bredex.de/images/icons/profilepics/default.png
 // @grant       none
 // ==/UserScript==
+
+// ==OpenUserJS==
+// @author hklene
+// ==OpenUserJS==
 
 // Der Inhalt dieser umschließenden Funktion wird komplett in die Seite injiziert (benötigt keinen Zugriff auf besondere GreaseMonkey-API).
 function injectContent() {
@@ -647,4 +653,3 @@ var inPageScript = document.createElement("SCRIPT");
 inPageScript.type = "text/javascript";
 inPageScript.innerHTML = injectMD5 + "\n" + injectContent;
 document.head.appendChild(inPageScript);
-
