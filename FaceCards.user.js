@@ -3,7 +3,7 @@
 // @namespace   https://openuserjs.org/users/hklene
 // @description Gesichter lernen mit Karteikarten
 // @copyright   2018, hklene (https://openuserjs.org/users/hklene)
-// @license     GPL-3.0
+// @license GPL-3.0
 // @version     2018-02-05
 // @include     https://confluence.bredex.de/browsepeople.action*
 // @include     https://confluence.bredex.de/dopeopledirectorysearch.action*
