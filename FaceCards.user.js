@@ -3,11 +3,11 @@
 // @namespace   https://openuserjs.org/users/hklene
 // @description Gesichter lernen mit Karteikarten
 // @copyright   2018, hklene (https://openuserjs.org/users/hklene)
-// @license GPL-3.0
+// @license     GPL-3.0+
 // @version     2018-02-05
-// @include     https://confluence.bredex.de/browsepeople.action*
-// @include     https://confluence.bredex.de/dopeopledirectorysearch.action*
-// @icon        https://confluence.bredex.de/images/icons/profilepics/default.png
+// @include     https://confluence.*/browsepeople.action*
+// @include     https://confluence.*/dopeopledirectorysearch.action*
+// @icon        data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAQAAAAEACAMAAABrrFhUAAACVVBMVEUwZJkxZZkyZZoyZpozZps0Z5s1aJs2aJw2aZw3aZ04ap05a506a547bJ47bZ88bZ89bp8+bqA/cKFAcKFCcaJDcqJDc6NEc6NFdKNGdKRHdaRIdqVJd6VKd6ZLeKZMeadOeqhPe6hQfKlRfalSfqpTfqpVf6tVgKtWgaxXgaxYgq1Zgq1Zg61ahK5bhK5cha9dha9dhq9fh7BgiLFhiLFiibFiirJjirJki7NmjLNmjbRojrVqj7VqkLZrkLZskbdtkrdukrdvk7hxlblylblzlrp0l7t1mLt2mLt3mbx4mr15m716m717nb5+nr9/n8CAoMCAoMGBocGCocGDosKHpcSIpsSJp8WKp8WLqMaMqcaNqceNqseOq8eRrMmRrcmSrsmTrsqUr8qVr8uVsMuWscuYssyas82atM2btM6dtc+ets+et8+guNChuNGiudGiutGjutKku9KlvNOmvNOnvdOnvdSovtSrwNaswdatwtevw9evw9iyxdmzxtm0xtq0x9q1yNu2yNu4yty7zN28zd69zt++zt/A0ODB0eHC0eHD0uHE0+LF0+LF1OPG1OPH1ePI1uTJ1+XK1+XL2OXO2+fR3OjS3enS3unT3unU3+rW4OvW4evX4evY4uzZ4uza4+3a5O3b5O3c5e7d5e7f5+/g6PDh6fDi6fHj6vHk6/Ll7PLm7PPn7fPo7vTp7/Tq7/Xs8PXs8fbu8vfv8/fw8/fw9Pjx9fjy9fnz9vn1+Pr2+Pv3+fv4+vv5+vz5+/z6+/37/P38/f39/f79/v7+/v////95FSdmAAAH6klEQVR4nO2d+1dUVRSA7zjJOEYJCYmKpZXPEp9lmYopQpjP0DQssJTK1EJMU8qcLHXGt2RWKpnPshgVHwGmMohz/q6GxVrKY2bueew9mzt3f7971v72krn3nrPP3pbFMAzDMAzDMAzDMAzDMAzDMAyDS79xZTWh+samaLSpsT5UvXRcP+qIUklOWbBZ9KA5WJZDHVdq8JUcfdjTvpOHx0p81NGhk1XRGN++k8aKLOoIUfFX9vqv3+tPodJPHSUexVft9Du4WkwdJxJDD8rod3BoGHWsGJQ2yfoL0VRKHS04vh3y+h3sSLPnwZBTav5CnMqjjhmSMWFVfyHCY6ijhmOq7cMvHs0F1HFD8cZ/Ov5CtEykjhyGV+/q+cf+D7xCHTsEE1t0/WOPw5epozdn+E19fyFu5lPHb8qgcyb+QpwbRG1ghido5i9E0EPtYMQ6U38h1lE7mDCj3TwB7TOoLfTJajD3F6LBuXskuyH8hQhQe+gyB8ZfiDnUJnpkanwBxSecSe2ixUYofyE2UrvoMLIVLgGtI6ltNNgL5y/EPmobdSZHIRMQnUzto0wdpL8QddQ+qkyH9RdiGrWRIoegE3CQ2kiNsdD+Qjhrj7QWPgG11E4qDL4Hn4B7g6mtFCiH9xeinNpKgfMYCbhAbSXPJAx/IZzzMlSDk4Ct1F6y9LuOk4DrTqkkm4bj75y3wU1YCdhMbSbJJawEXKI2k2MElr8QI6jdpFiGl4Bl1G5SfI+XgAC1mxRSxYB6XKV2k2EInr8QQ6jtJCjCTEARtZ0EGzATsIHaTgLjioBkHKC2k+BvzASEqe3syQQ9D+hF3z8lRNgO7cpYaj9bUB8CQsyn9rNlDW4C1lD72VKNm4Bqaj9b9uAmYA+1ny3Ah6I96fuHpGdwE3CG2s+WK7gJuELtZ8st3ATcovazxaA4XoYWaj9b7uMmIEKsZw+uvxDUfra4PgGu/xNw/Y8g8mPwNrWfLa5/EXL9q7DrP4Zc/zns+g0R12+JuX5T1PXb4pm4Cej7ByMWyGXJRDjgaIwPR1GPxz+ntpPA9QUSeZgJcERzIbcXSXGZHGKh5HJqNylcXyrr+mJpazNWAr6gNpME7cLEdGozSVx/ZcbaipMAx1yasibjJGAKtZc8FzD8L1JbKYBydbbvbwc+xvWXp11/fd4aD5+AcdROaoC30DhEbaQIeBMVp7wFPuIErP9P1D7KTHF7IyVrH2QCHNhKi5upub6dnpUJtj3s0IaKViFUAgqpTXQJwPgHqD20yQbpKhrOpvbQx+2NlS2ryjwBVdQORnhCpv4hZzdXd317fct6zmzAwvPU8ZtTYFBAnx5DRl7THrKSLmNmZuqO2UmbQUPTtP4KWhy4B5AIt4/asqw8lw9bsyzfTjX/2jQbtxdjocrAxXeoo8VgmPRZweHh1LEiUXJNRv96CXWcePjX2o/dXTuQOkpUstffSKZ/Y72Ddz8k8b19PNHo7eOl6ffbH5fcFcFe74YtwRW51HGlEu/4sq9C9Y2xR2NTY31oy/LxXuqIGIZhGIZhGIZhIPGb/fMBMFGQMGDiks1Hwu2lJmssaLt29MtlBY7bJMp6/f3A+QedH/oPFuivMzfSuUb7+cAHMx2yV+SbunrPn93KZCNv6a41K9Jtz+Ry4L1J/QFDhSenqOZknPrQyGy95d6Mc6zcerKmqG9eHcldWJvwymxkns6KsxPdu4me216cAxy+GQMLtyW/JxYpVl90XiTZitGL2wv7yE9j/qqj9l0k25XPuoqT+nemta6cvILmxap62zg7M/Cu2sKLJSsMz346GsdMhrwPJe07iFaqLF2ucN3ij0qSo0Tv3KBiGWi1dMWfR7HS/uGBeaneVfev1JilsvsJucW936ivHV6dyp/EjDVJD/gSEnpSZnX/fq3Fb65N2bnarMtaEcY4/az96jm/6q7+l9brhjLe7boBCpnKp5dM5hTVpuDj0fujQYBC3LHpiDjXrDHziafQE7DNKMDY47AqycPAU5ng5Fyaugxk/0WGAcY48EyixbP0fv66sQvXfyhE6/B/EpQATwDpSo3bbWovRIii7eM4bwTeCpiblnfyEf1ngoQY45dRPZce+TPU2ofx/D1wjcPvV3XbLfV/AjiXAO91YAFckLFXgrJHP9j9l4IOKbyE9WHgOQsZphANHz3XsWx+JfSMRqxC21nAcXbs6+zffwF+QuNFpJ5bR8AjxQKn2HYU7jBNSE6jJGALtZYCGLeNMm5TWynwLUICSqilVLibBZ8A1J7h4KwE98+236fvS5wET8ByaiU1ouCfRMjjc8CpAPbPBegFkVJ+B07ACmohZYCPDQ9T+yizCtQ/E7AvVoo4BpqA+dQ66rSBNt/QOK0jB/STEKQjUorZCeg/mlpGB8jZjMgT1JAAHMfgnL2grihW5SQhQ7sPDClwwxnBe+SmhgawBAC0RCMBrHgKuEdwyjAqVO/CAORx2mh8DZQAtKEp2EDtjldQi+gSASoZctZ2aFdgmnF5/qX20AZmT+AFag19vgNJwGJqDX1gNgZNC+MIaZWsTk7Ob9QaBkC05Mtw3nbgYyBqRQqoJUzYBJCAldQSJkCUzO2iljDhGkACgEvDUszTxv6+NmoHI8xrZSZQK5ixyDgBS6gVzPjMOAFI4zNTxQ/GCXBaYUQP6o0TYNQdn55m4wQwDMMwDMMwDMMwDMMwDMMwDJM2/A++Z0bOpEKAxgAAAABJRU5ErkJggg==
 // @grant       none
 // ==/UserScript==
 
@@ -268,6 +268,7 @@ function showRandomEntry(lessonLearned) {
             enoughForToday++;
         }
         if (hotspotSize < Math.abs(enoughForToday)) {
+            cleanup();
             if (confirm("Genug für heute?")) {
                 window.location.hash = "#";
             } else {
@@ -276,8 +277,10 @@ function showRandomEntry(lessonLearned) {
         }
     }
 
-    var j, category = '', hr = hotspot.length * Math.random() | 0;
-    if (hotspotSize / 4 < hr && hotspot[hr] != old) {
+    var j, category = '', hr = hotspot.length;
+    if (0 < hr // 20% für letzten Eintrag bis 80% wenn hotspot voll
+            && (hr - 1) / (hotspotSize - 1) * 3 > 5 * Math.random() - 1
+            && hotspot[hr = hr * Math.random() | 0] != old) {
         j = hotspot[hr];
         lesson = entries[j];
         category = 'Hotspot';
